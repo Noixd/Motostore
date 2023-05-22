@@ -5,23 +5,23 @@ src: url(../Motostore_res/ReadexPro-Variable.ttf);
 
 .head1 {
     position: absolute;
-    width: 100%;
+    width: 100vw;
     height: 80px;
     background-color: #000;
     position: fixed;
-    right:0%;
-    left: 0%;
-    top: 0%;
+    right:0vw;
+    left: 0vw;
+    top: 0vh;
     text-align: center;
     z-index: 10;
 }
 
 .bg {
-    margin-left: 0px;
+    margin-left: 0vw;
     top: 80px;
     position: absolute;
-    right:0%;
-    left: 0%;
+    right:0vw;
+    left: 0vw;
     width: 100%;
     height: 3000px;
     z-index: -10000;
@@ -52,16 +52,16 @@ src: url(../Motostore_res/ReadexPro-Variable.ttf);
 
 .call {
     position: absolute;
-    right: 13%;
-    top: 20%;
+    right: 13vw;
+    top: 2.3vh;
     width: 128px;
     height: 47px;
 }
 
 .basement {
     position: fixed;
-    width: 100%;
-    bottom: 5%;
+    width: 100vw;
+    bottom: 5vh;
     text-align: center;
     font-family: "ReadexPro";
     color: #555555;
@@ -78,9 +78,9 @@ src: url(../Motostore_res/ReadexPro-Variable.ttf);
 }
 
 img.index_link {
-    position: absolute; 
-    margin-top: -15%;
-    left: 30%;
+    position: relative; 
+    margin-top: -25vh;
+    left: -15vw;
     width: 640px; 
     height: 494px;
     z-index: -2;
@@ -88,8 +88,8 @@ img.index_link {
 
 img.index_link_text {
     position: relative;
-    top: -6%;
-    left: 3%;
+    top: -25vh;
+    left: 20vw;
     height: 120px;
     width: 500px;
 }

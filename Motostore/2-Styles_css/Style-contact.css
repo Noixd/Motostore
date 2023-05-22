@@ -1,0 +1,29 @@
+.title_contact {
+    position: absolute;
+    top: 17vh;
+    left: 6vw;
+    
+
+    font-family: 'ReadexPro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6.5vw;
+    line-height: 17.5vh;
+    /* or 0px */
+
+    color: #FFFFFF;
+
+    /* Shadow */
+
+    text-shadow: 5px 4px 10px rgba(0, 0, 0, 0.46);
+
+    display: flex;
+    align-items: center;
+}
+
+.contact_form {
+    position: absolute;
+    height: 500px;
+    right: 10vw;
+    top: 10vw;
+}
