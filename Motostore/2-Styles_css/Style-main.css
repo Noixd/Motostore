@@ -56,6 +56,11 @@ src: url(../Motostore_res/ReadexPro-Variable.ttf);
     top: 2.3vh;
     width: 128px;
     height: 47px;
+    transition: all 100ms ease-in-out 50ms;
+}
+
+.call:hover {
+    transform: scale(0.9);
 }
 
 .basement {
@@ -80,7 +85,7 @@ src: url(../Motostore_res/ReadexPro-Variable.ttf);
 
 img.index_link {
     position: absolute; 
-    margin-top: -13%;
+    margin-top: -35%;
     left: 30%;
     width: 640px; 
     height: 494px;
@@ -97,12 +102,12 @@ img.index_link_text {
 div.index_link_text {
     z-index: 1;
     position: relative;
-    top: 5%;
+    top: -30%;
     height: 450px;
 
     transition: top 300ms ease-in-out 50ms;
 }
 
 div.index_link_text:hover {
-    top: 20%;
+    top: -12%;
 }

@@ -47,12 +47,72 @@
 
 .moto_img {
     position: absolute;
-    left: 5vw;
-    bottom: 12vh;
+    left: 5%;
+    bottom: 12%;
 }
 
 .link_contact {
     position: absolute;
-    left: 57vw;
-    bottom: 12vh;
+    border-radius: 54px;
+    width: 470px;
+    height: 120px;
+    left: 57%;
+    bottom: 12%;
+    text-align: center;
+
+    transition: radial-gradient 1s ease 50ms;
 }
+
+.link_contact.MT-03 {
+    background: radial-gradient(117.19% 1762.04% at 46.93% 50.34%, rgba(123, 204, 205, 0.7) 0%, rgba(221, 4, 1, 0.7) 100%);
+}
+
+.link_contact.MT-03:hover {
+    background: radial-gradient(117.19% 1762.04% at 46.93% 50.34%, rgba(221, 4, 1, 0.7) 0%, rgba(123, 204, 205, 0.7) 100%);
+}
+
+.link_contact.MT-09 {
+    background: radial-gradient(117.19% 1762.04% at 46.93% 50.34%, rgba(89, 112, 250, 0.7) 0%, rgba(255, 240, 91, 0.7) 100%);
+}
+.link_contact.MT-09:hover {
+    background: radial-gradient(117.19% 1762.04% at 46.93% 50.34%, rgba(255, 240, 91, 0.7) 0%, rgba(89, 112, 250, 0.7) 100%);
+}
+
+.link_contact.YZF-R7 {
+    background: radial-gradient(117.19% 1762.04% at 46.93% 50.34%, rgba(255, 255, 255, 0.7) 0%, rgba(197, 156, 78, 0.7) 100%);
+}
+.link_contact.YZF-R7:hover {
+    background:radial-gradient(117.19% 1762.04% at 46.93% 50.34%, rgba(255, 255, 255, 0.7) 0%, rgba(197, 156, 78, 0.7) 0.01%, rgba(255, 255, 255, 0.7) 100%);
+}
+
+.text_contact {
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    font-family: 'ReadexPro';
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 130%;
+    color: black;
+
+    transition: top 300ms, color 300ms, text-shadow 300ms ease-in-out;
+}
+
+.text_contact.MT-03 {
+    text-shadow: 0px 4px 4px #1BA0A1;
+}
+
+.text_contact.MT-09 {
+    text-shadow: 0px 4px 4px #3C4BA3;
+}
+
+.text_contact.YZF-R7 {
+    text-shadow: 0px 4px 4px #A6885A;
+}
+
+.text_contact:hover {
+    top: 8%;
+    color: #FFFFFF;
+    text-shadow: none;
+}
+
