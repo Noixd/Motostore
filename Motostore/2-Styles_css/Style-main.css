@@ -67,6 +67,7 @@ src: url(../Motostore_res/ReadexPro-Variable.ttf);
     color: #555555;
     text-decoration: none;
     text-transform: none;
+    z-index: 2;
 }
 
 .basement:hover {
@@ -83,30 +84,26 @@ img.index_link {
     left: 30%;
     width: 640px; 
     height: 494px;
-    z-index: -2;
+    z-index: 0;
 }
 
 img.index_link_text {
     position: relative;
     height: 120px;
     width: 500px;
-}
-
-img.index_link_text:hover {
+    z-index: 1;
+    
     animation-name: text_link_animate;
     animation-fill-mode: forwards;
     animation-duration: 1s;
 }
 
-/*@keyframes text_link_animate {
+@keyframes text_link_animate {
     0% {
         top: 0%;
-        width: 500px;
-        height: 120px;
     }
     100% {
-        top: 25%;
-        width: 300px;
-        height: 80px;
+        transform: scale(0.6);
+        top: 20%;
     }
-   }*/
+   }
