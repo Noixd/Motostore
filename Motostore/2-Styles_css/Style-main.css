@@ -91,19 +91,18 @@ img.index_link_text {
     position: relative;
     height: 120px;
     width: 500px;
-    z-index: 1;
-    
-    animation-name: text_link_animate;
-    animation-fill-mode: forwards;
-    animation-duration: 1s;
+    top: 100%;
 }
 
-@keyframes text_link_animate {
-    0% {
-        top: 0%;
-    }
-    100% {
-        transform: scale(0.6);
-        top: 20%;
-    }
-   }
+div.index_link_text {
+    z-index: 1;
+    position: relative;
+    top: 5%;
+    height: 450px;
+
+    transition: top 300ms ease-in-out 50ms;
+}
+
+div.index_link_text:hover {
+    top: 20%;
+}
